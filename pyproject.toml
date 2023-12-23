@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cli-templater"
+version = "0.1.0"
+description = "CLI tool for easy project templates management"
+authors = ["Vasiliy Pakhomov <pakhomov.vasiliy.v@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

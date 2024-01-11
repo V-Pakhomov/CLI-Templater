@@ -7,8 +7,26 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pyyaml = "^6.0.1"
 
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+types-pyyaml = "^6.0.12.12"
+black = "^23.12.1"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+
+
+[tool.black]
+color = true
+line-length = 120
+skip-string-normalization = true

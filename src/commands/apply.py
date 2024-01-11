@@ -11,5 +11,5 @@ def main(template_name: str, dirname: str):
     shutil.copytree(template_tree_path, Path(dirname))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':  # adssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
     main(*sys.argv[1:])
